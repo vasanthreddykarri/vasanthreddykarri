@@ -1,0 +1,22 @@
+n=int(input())
+temp=n
+min=n%10
+max=n%10
+x=y=0
+while n:
+    r=n%10
+    n=n//10
+    if r>max:
+        max=r
+    if r<min:
+        min=r
+print(min,max)        
+n=temp
+while n:
+    r=n%10
+    n=n//10
+    if r==min:
+        x+=1
+    if r==max:
+        y+=1
+print(x,y)        
