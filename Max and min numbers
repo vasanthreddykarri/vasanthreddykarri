@@ -1,4 +1,4 @@
-num=int(input())
+n=int(input())
 temp=n
 mi=9
 ma=0
